@@ -58,19 +58,19 @@ body {
   font-size: 16px;
 }
 
-#bigBox {
+.bigBox {
   padding: 2%;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-#bigBox #box {
+.bigBox #box {
   padding: 2%;
   color: #fff;
   background-color: #000;
 }
 
-#bigBox #box img {
+.bigBox #box img {
   width: 170px;
   height: 220px;
   border-radius: 4px;
@@ -78,18 +78,18 @@ body {
           box-shadow: 0 0 4px #dbdbdb;
 }
 
-#bigBox #box #text {
+.bigBox #box #text {
   margin-left: 4%;
   padding-top: 3%;
   width: 70%;
 }
 
-#bigBox #box #text .text p {
+.bigBox #box #text .text p {
   margin-bottom: 1%;
   font-size: 13px;
 }
 
-#bigBox #box #text .button button {
+.bigBox #box #text .button button {
   color: #32A23D;
   background-color: #000000;
   border: none;
@@ -97,7 +97,7 @@ body {
   outline: none;
 }
 
-#bigBox #box #text .button button img {
+.bigBox #box #text .button button img {
   width: 25px;
   height: 25px;
   -webkit-box-shadow: none;
@@ -105,7 +105,7 @@ body {
   margin-left: 8px;
 }
 
-#bigBox #box #text .button .boxplus {
+.bigBox #box #text .button .boxplus {
   background-color: #32A23D;
   border-radius: 50%;
   width: 45px;
@@ -113,12 +113,12 @@ body {
   margin-left: 5%;
 }
 
-#bigBox #box #text .button .boxplus p {
+.bigBox #box #text .button .boxplus p {
   margin: 0;
   font-size: 25px;
 }
 
-#bigBox:hover {
+.bigBox:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
   -webkit-transition: all 0.3s ease-in-out;

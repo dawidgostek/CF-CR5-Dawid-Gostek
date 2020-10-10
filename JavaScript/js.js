@@ -2,7 +2,8 @@ var movies = JSON.parse(movie);
 console.table(movies);
 
 for (var i=0; i < movies.length; i++) {
-    $("#boxMovie").append(`<div id="bigBox" class="my-2 col-12 col-lg-6">
+    $("#boxMovie").append(`
+    <div id="${i}" class="bigBox my-2 col-12 col-lg-6">
         <div id="box" class="d-flex">
             <img src=${movies[i].image}>
             <div id="text" class="d-flex flex-column justify-content-around">
