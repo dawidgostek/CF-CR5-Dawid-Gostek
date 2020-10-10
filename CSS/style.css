@@ -1,0 +1,127 @@
+body {
+  background-color: #1D2329;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#header, #footer {
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+}
+
+#navi {
+  background-color: #454545;
+  color: #ffffff;
+}
+
+#navi ul {
+  padding-left: 2%;
+}
+
+#navi ul li {
+  list-style: none;
+  font-size: 25px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#navi ul li a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#navi ul li a:hover {
+  color: #d3d3d3;
+}
+
+#title1 {
+  color: #ffffffa6;
+  font-size: 32px;
+}
+
+#title2 {
+  color: #ffffffa6;
+}
+
+#title2 p {
+  margin-bottom: 0;
+  margin-left: 4px;
+  font-size: 22px;
+}
+
+#title2 span {
+  font-size: 16px;
+}
+
+#bigBox {
+  padding: 2%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#bigBox #box {
+  padding: 2%;
+  color: #fff;
+  background-color: #000;
+}
+
+#bigBox #box img {
+  width: 170px;
+  height: 220px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 4px #dbdbdb;
+          box-shadow: 0 0 4px #dbdbdb;
+}
+
+#bigBox #box #text {
+  margin-left: 4%;
+  padding-top: 3%;
+  width: 70%;
+}
+
+#bigBox #box #text .text p {
+  margin-bottom: 1%;
+  font-size: 13px;
+}
+
+#bigBox #box #text .button button {
+  color: #32A23D;
+  background-color: #000000;
+  border: none;
+  font-size: 25px;
+  outline: none;
+}
+
+#bigBox #box #text .button button img {
+  width: 25px;
+  height: 25px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-left: 8px;
+}
+
+#bigBox #box #text .button .boxplus {
+  background-color: #32A23D;
+  border-radius: 50%;
+  width: 45px;
+  height: 47px;
+  margin-left: 5%;
+}
+
+#bigBox #box #text .button .boxplus p {
+  margin: 0;
+  font-size: 25px;
+}
+
+#bigBox:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */

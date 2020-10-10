@@ -1,0 +1,42 @@
+var movie =`[{
+    "movieName": "A Star is Born",
+    "image": "../IMG/star.jpg",
+    "description": "American romantic musical drama film produced and directed by Bradley Cooper",
+    "likes": 0,
+    "year": "2018"
+},
+{
+    "movieName": "Halloween",
+    "image": "../IMG/halloween.jpg",
+    "description": "American horror slasher film directed by David Gordon Green and written by Green, Jeff Fradley, and Danny McBride.",
+    "likes": 0,
+    "year": "2018"
+},
+{
+    "movieName": "First Man",
+    "image": "../IMG/first.jpg",
+    "description": "American biographical drama film directed by Damien Chazelle and written by Josh Singer.",
+    "likes": 0,
+    "year": "2018"
+},
+{
+    "movieName": "Bad Times el Royale",
+    "image": "../IMG/badtimes.jpg",
+    "description": "American neo-noir thriller film written, produced and directed by Drew Goddard.",
+    "likes": 0,
+    "year": "2018"
+},
+{
+    "movieName": "Mandy",
+    "image": "../IMG/mandy.jpg",
+    "description": "Action horror thriller film directed by Panos Cosmatos, produced by Elijah Wood.",
+    "likes": 0,
+    "year": "2018"
+},
+{
+    "movieName": "Crazy Rich Asians",
+    "image": "../IMG/crazy.png",
+    "description": "American romantic comedy film directed by Jon M. Chu, from a screenplay by Peter Chiarelli and Adele Lim.",
+    "likes": 0,
+    "year": "2018"
+}]`
